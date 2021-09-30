@@ -1,0 +1,23 @@
+{
+  "name": "TC2026-equipo-11",
+  "version": "1.0.0",
+  "description": "* Zoe Caballero Dominguez A017 algo\r * Diego Palmerín Bonada A017 algo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dpalme/TC2026-equipo-11.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dpalme/TC2026-equipo-11/issues"
+  },
+  "homepage": "https://github.com/Dpalme/TC2026-equipo-11#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
