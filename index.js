@@ -6,6 +6,7 @@ const routesCons = require('./routes/consolas.js');
 const routesConsVid = require('./routes/consolaVideojuego.js');
 
 const sequelize = require('./utils/database')
+app.use(express.json());
 app.use(express.static(path.join(__dirname,'public')))
 app.use(routesVid);
 app.use(routesCons);
