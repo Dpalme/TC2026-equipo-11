@@ -4,6 +4,7 @@ const app = express();
 const routes = require('./routes/videojuegos.js');
 
 const sequelize = require('./utils/database')
+app.use(express.json());
 app.use(express.static(path.join(__dirname,'public')))
 app.use(routes);
 
