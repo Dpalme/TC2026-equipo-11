@@ -4,7 +4,8 @@ const Videojuego = (sequelize)=>{
         id:{
             type: Sequelize.INTEGER, //Varchar(30)
             allowNull: false,
-            primaryKey: true 
+            primaryKey: true,
+            autoIncrement: true
         },
         nombre: Sequelize.STRING
     })
