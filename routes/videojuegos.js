@@ -1,5 +1,5 @@
 const express = require("express")
-const vjController = require('../controllers/videojuegos')
+const vjController = require('../controllers/videojuegos.js')
 const router = express.Router()
 
 router.post('/agregarVideojuego',vjController.postAgregarVideojuego)
