@@ -1,5 +1,5 @@
 const path = require('path')
-const Consola = require('../utils/database').models.Consola
+const Consola = require('../utils/database').models.consola
 
 exports.postAgregarConsola = (req,res)=>{
     console.log(req.body);
