@@ -24,7 +24,7 @@ exports.getObtenerVideojuegos = (req,res)=>{
         .catch(err=>console.log(err))
 } 
 
-exports.postBorrarVidejuego = (req, res)=>{
+exports.postBorrarVideojuego = (req, res)=>{
     console.log(req.body)
     Videojuego.destroy({
         where:{
